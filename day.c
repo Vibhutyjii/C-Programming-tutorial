@@ -1,15 +1,24 @@
+// Write a program to check if given character is digit or not .
+
 #include<stdio.h>
+#include<ctype.h>
+
 
 int main() {
-    int a,b;
 
-    printf("Enter a : \n");
-    scanf("%d",&a);
+    char obj = "a";
 
-    printf("Enter b : \n");
-    scanf("%d",&b);
+    printf(" Let's find out your input is digit or not !! \n");
+    
 
-    printf("Sum of A & b is - %d \n", a + b);
+    if (isdigit(obj) == 0)
+    {
+        printf("\n %c it is not an digit .", obj);
+    }
+    else {
+        printf("\n %c it is not an digit .", obj);
+    }
+
 
     return 0;
 }
